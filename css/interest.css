@@ -160,18 +160,6 @@ input[type="range"] {
     transition: background 0.3s;
 }
 
-input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: var(--slider-thumb-size);
-    height: var(--slider-thumb-size);
-    border-radius: 4px;
-    background: var(--primary-color);
-    cursor: pointer;
-    box-shadow: 0 2px 4px var(--shadow-color);
-    transition: background 0.3s;
-}
-
 input[type="range"]:hover::-webkit-slider-thumb {
     background: var(--secondary-color);
 }
